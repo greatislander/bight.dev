@@ -1,0 +1,1 @@
+{"type":"PR","pr":{"number":4,"head":"e94485c8cea855c81c5b5ad2b032ca7d2e816037"},"user":"ned","status":"draft","branch":"cms/test-post","collection":"posts","title":"Test Post","description":"No Description!","objects":{"entry":{"path":"src/posts/test-post.md","sha":"722b95c5762160046bd00e2bddd9a0820b344aed"},"files":[]},"timeStamp":"2019-07-12T00:53:42.799Z"}
