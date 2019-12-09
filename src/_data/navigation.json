@@ -6,6 +6,14 @@
       "external": false
     },
     {
+      "text": "Portfolio",
+      "url": "/portfolio"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
+    },
+    {
       "text": "GitHub",
       "url": "https://github.com/greatislander",
       "external": true
