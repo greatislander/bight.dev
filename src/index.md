@@ -1,10 +1,12 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
-postsHeading: Latest posts
+title: Bight Consulting
+postsHeading: Latest Posts
 archiveButtonText: See all posts
 socialImage: ''
 ---
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself.
+Bight Consulting is Ned Zimmerman. I’m a freelance web developer based in Halifax and Port Medway, Nova Scotia and I’ve been working with clients across Canada and the United States since 2011.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/andybelldesign/hylia)
+My focus is WordPress theme and plugin development; my passion is working with artists, community organizations and civil society groups to provide efficient and effective web platforms for their work.
+
+[Visit my portfolio](/portfolio) to see some of my work, or [contact me](/contact) for rates and availability.
