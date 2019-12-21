@@ -24,7 +24,8 @@
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-node-resolve": "^5.0.3"
+    "rollup-plugin-node-resolve": "^5.0.3",
+    "xo": "^0.25.3"
   },
   "scripts": {
     "sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
@@ -33,7 +34,8 @@
     "cms:bundle": "rollup --config",
     "start": "concurrently 'npm run sass:process -- --watch' 'npm run cms:bundle -- --watch' 'chokidar \"src/_includes/**\" -c \"npm run cms:precompile\"' 'npm run serve'",
     "serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
-    "production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy"
+    "production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy",
+    "test": "xo"
   },
   "repository": {
     "type": "git",
