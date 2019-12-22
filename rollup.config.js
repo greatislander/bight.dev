@@ -10,10 +10,5 @@ export default {
 		format: 'iife',
 		name: 'previewUtil'
 	},
-	plugins: [
-		builtins(),
-		nodeResolve(),
-		commonjs(),
-		json()
-	]
+	plugins: [builtins(), nodeResolve(), commonjs(), json()]
 };
