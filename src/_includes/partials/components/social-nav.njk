@@ -1,0 +1,11 @@
+{% if social.items %}
+  <nav class="nav nav--social">
+    <ul class="nav__list">
+      {% for item in social.items %}
+        <li class="nav__item">
+          <a href="{{ item.url }}" rel="external">{{ item.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}

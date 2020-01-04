@@ -1,18 +1,124 @@
-@import "../../node_modules/modern-css-reset/dist/reset.css";
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Georgia", serif;
+}
+
+main {
+	flex: 1 0 auto;
+	max-width: 58ch;
+	width: 100%;
+}
+
+.site-head,
+.site-foot {
+	max-width: 58ch;
+	width: 100%;
+}
+
+.rights {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+* + * {
+	margin-top: 1.5rem;
+}
+
+li + li {
+	margin-top: 0;
+}
+
+.skip-link {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	margin-top: 0;
+	opacity: 0;
+}
+
+.skip-link:focus {
+	opacity: 1;
+}
+
+.site-head__inner {
+	text-align: center;
+}
+
+.site-head__site-name {
+	font-family: "League Spartan", sans-serif;
+	font-size: 2.25rem;
+	display: block;
+	text-decoration: none;
+	margin-top: 0;
+}
+
+.site-head__site-logo {
+	height: auto;
+	width: 7rem;
+}
+
+.nav {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+footer {
+	padding-bottom: 1.5rem;
+}
+
+.nav__list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.nav__item {
+	display: inline;
+	padding: 0 0.5rem;
+}
+
+a {
+	color: #003468;
+}
+
+a:hover,
+a:focus {
+	color: #0050a0;
+}
+
+.post-list__item h3 {
+	margin-bottom: 0;
+}
+
+.post-list__item p {
+	margin-top: 0;
+}
 
 .visually-hidden {
 	border: 0;
-	clip: rect(0 0 0 0);
-	height: auto;
-	margin: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
 	width: 1px;
-	white-space: nowrap;
-}
-
-.site-head__site-logo {
-	width: 5rem;
-	height: 5rem;
+	word-wrap: normal !important;
 }

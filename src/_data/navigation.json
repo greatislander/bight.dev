@@ -4,7 +4,12 @@
       "text": "Home",
       "url": "/",
       "external": false
-    },
+	},
+	{
+		"text": "Log",
+		"url": "/log",
+		"external": false
+	  },
     {
       "text": "Portfolio",
       "url": "/portfolio"
@@ -12,16 +17,6 @@
     {
       "text": "Contact",
       "url": "/contact"
-    },
-    {
-      "text": "GitHub",
-      "url": "https://github.com/greatislander",
-      "external": true
-    },
-    {
-      "text": "Twitter",
-      "url": "https://twitter.com/greatislander",
-      "external": true
     }
   ]
 }

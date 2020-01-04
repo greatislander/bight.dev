@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Bight Consulting
-postsHeading: Latest Posts
-archiveButtonText: See all posts
+title: Bight
+postsHeading: Recent Log Entries
+archiveButtonText: See all entries
 socialImage: ''
 ---
 Bight Consulting is Ned Zimmerman. I’m a freelance web developer based in Halifax and Port Medway, Nova Scotia and I’ve been working with clients across Canada and the United States since 2011.

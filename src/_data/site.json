@@ -1,9 +1,8 @@
 {
   "showThemeCredit": false,
-  "name": "Bight Consulting",
-  "shortDesc": "TK.",
+  "name": "Bight",
   "url": "https://bight.dev",
-  "authorEmail": "ned@bight.ca",
+  "authorEmail": "ned@bight.dev",
   "authorHandle": "@greatislander",
   "authorName": "Ned Zimmerman",
   "enableThirdPartyComments": false,
