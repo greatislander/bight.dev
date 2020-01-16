@@ -10,11 +10,11 @@
 		"@tbranyen/jsdom": "^13.0.0",
 		"concurrently": "^5.0.2",
 		"html-minifier": "^4.0.0",
-		"json-to-scss": "^1.4.0",
 		"modern-css-reset": "^1.0.4",
+		"npm-run-all": "^4.1",
+		"rimraf": "^3.0",
 		"sass": "^1.24.4",
-		"slugify": "^1.3.6",
-		"stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
+		"slugify": "^1.3.6"
 	},
 	"devDependencies": {
 		"chokidar-cli": "^2.1.0",
@@ -28,13 +28,13 @@
 		"xo": "^0.25.3"
 	},
 	"scripts": {
-		"sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
-		"sass:process": "npm run sass:tokens && sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
+		"sass": "sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
+		"clean": "rimraf dist",
 		"cms:precompile": "make-dir dist/admin && nunjucks-precompile src/_includes > dist/admin/templates.js -i '\\.(njk|css|svg)$'",
 		"cms:bundle": "rollup --config",
-		"start": "concurrently 'npm run sass:process -- --watch' 'npm run cms:bundle -- --watch' 'chokidar \"src/_includes/**\" -c \"npm run cms:precompile\"' 'npm run serve'",
+		"start": "npm run clean && concurrently 'npm run sass -- --watch' 'npm run cms:bundle -- --watch' 'chokidar \"src/_includes/**\" -c \"npm run cms:precompile\"' 'npm run serve'",
 		"serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
-		"production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy",
+		"production": "run-s clean sass cms:* && npx eleventy",
 		"test": "xo"
 	},
 	"repository": {

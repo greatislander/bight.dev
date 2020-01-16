@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/greatislander
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bight.dev
+  * I am greatislander (https://keybase.io/greatislander) on keybase.
+  * I have a public key with fingerprint 0850 EF1F 6226 5C41 6D7B  D7B8 CFB7 58A3 938B A81C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c05560bf6930988d3f69aef9b85c76abe14063804d41d3069e6ace8742606d640a",
+      "fingerprint": "0850ef1f62265c416d7bd7b8cfb758a3938ba81c",
+      "host": "keybase.io",
+      "key_id": "cfb758a3938ba81c",
+      "kid": "0101a83ef3fb14cbe32a291acbbfe007ad282d07e4476b6908632d15ba1a09a1b1800a",
+      "uid": "4f5cfa02ba43215887e25bc17a38ae19",
+      "username": "greatislander"
+    },
+    "merkle_root": {
+      "ctime": 1579200269,
+      "hash_meta": "d09369257af2cfb92240de851443367a7f63a760311845abd9b9d9adf62d020e",
+      "seqno": 14253927
+    },
+    "revoke": {
+      "sig_ids": [
+        "72ae3647548a478bc734d2c796ffac359b8fb85af80cbfa40c27014623235b7f0f"
+      ]
+    },
+    "service": {
+      "hostname": "bight.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1579200270,
+  "expire_in": 157680000,
+  "prev": "d9ff357f8bff5fa24e72583de630e3248c9b249e0507609bada6924a34189fe6",
+  "seqno": 84,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMQJAnicbZMNbBRFFMfvrC1S+dJShIIFF5JqKWV2dnZ3tgqEBiQVJLF8B+g5sztz
+t2nvg73jylFbUgS1gBgoFhKgfElKKQULlAINBkFMC1ICErQJEipCxYYvIQTxc67B
+kBiTTXb35f/e+7/fm/mqd4Ir2X2uafaOypW7hrjPnIgtdBUM29enRKJBKybllEiF
+rPvFiiwWjngKbUvKkYAMZBOoqgYo1wwFGBhbivgijBsUq6auEcpkBDQFA2Qh2VKA
+ZjCNmAzrCGpAszQEiJQlcTvgZU7IsQOReFmsAsZlrkGoqSaSNUun4sEmp7qKiWIo
+mBIsmyLRFwzHM4Q5SsIs2w6KmPjxdNv7H/1T3wQrjCucysikTIEEGjIxKeUMAJ1Y
+EEML6AwhXaOaAbCmQEtWKZEJMIhMZQy6fS/sLoe4anICICVIgbKKsc6gSk1ZJwom
+TDbiwjBzAsTPhNrrMBKxw0UkYDFHKs2S/MwpLGIeJxiMxAmbETuuk1XdgABAzRBT
+krDP42cRItItYCiaAVWdcCgGNCBEwGJYlRFSFE0nOtcUomtAkWWMVEItgxqWQSxB
+0wIQMGEmzBYEgqIDgqpiQF1YcFg0WMji3cO2V8ALSzlzJR0SpmhIVxEmSMfU1BVk
+QVM3NM6JqahixVxsmXAMTMoJAibUgYw0qEBFpToHXJpfGu/mRG2zu3h8W08oUNvr
+i2RbLCr8hJxgJGgGi0TYF4mEwjlxKpFYKK4rZtTzpIKH2gFLHBSREWVO2A4GxAxC
++R9gOsiS2KKQ7TCPHegOa2JbAMT7iHaCoMG5ouocU85VTiBiOlSxYjFNAeIkIGwa
+FCKDARUIjgYlFhHAEVGQjA3OtKcEMRI+iVfUFNgCJLLQYVLpiS/nPetyJ7uSEp+J
+3yBXcs9+/96rVrWf6+iM/a+N/PZ28fn9dx54Xznlryrp03fJhMoDGbsyLicOO1k6
+0pfff23g163t5ysHfbHx/bTKcFrVzF9ajwyf+tGW/ZlNbotdvurcylmX2pFdNT49
+1zdnSPGb5Q8PvpuAF5nGvuMFzYfTlyz9LLuZdM2xixffT7iz4/dZMxp70SRybNOI
+rrnjXnh0pcf8l9vcVRn1j8f83YKnb/10/apJrsneWENuUe2N/t+11f7WOetei/R2
+yqmiwe3XR99N2paW/Oj5K1vcx7c1JlWM3o2mLN6yYkooNa+5Z8KZg9FbF2OtNztw
+Xcbny2YXFNRFJ17PVB92PvxxeO2FHZM7U6ovXcg6X16xZ0xDTnmdb3n9B033rUx5
+1M3dxwaPHzSwswtEU6fH9pQ9PnT4xcPv1Q9tXrZO3zRgV8rYmpqy/M0Nj9ryU0P9
+PklpTGwGU2bmXanLTKtufGvDN4cyN/axQtvrL6afy5g2pDwhadVL+QtueJ57fdw7
+PX4+vvONir0tG7TOumnnDiSOndRWNS29ozZwermcvf56oMHb8seK5J82z+/1Q03H
+Df8t+9iastN5kaxrI14ddXb87Iqpe44mPp5zb/XalEuX/ANPDWvOrePzmnpsIB+2
+uvIG/fnXmgG3r177/mJX9Ukntjdr+5ql7WePlOQN/br3WuxWC8tcVJUPPQjvzCz8
+uGRqTcXZSSevekzSt/3u6gn+iQOqF/wDX2/9OQ==
+=wMhw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/greatislander
+
+==================================================================
