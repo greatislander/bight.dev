@@ -14,15 +14,15 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	font-family: "Georgia", serif;
+	padding: 0;
+	margin: 0;
 }
 
 main {
 	flex: 1 0 auto;
 	max-width: 58ch;
 	padding: 0 1.5rem;
-	width: 100%;
 }
 
 .site-head,

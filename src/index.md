@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Bight
-postsHeading: Recent Log Entries
+postsHeading: Recent Entries
 archiveButtonText: See all entries
 socialImage: ''
 ---
