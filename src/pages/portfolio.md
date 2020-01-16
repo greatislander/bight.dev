@@ -6,8 +6,8 @@ permalink: /portfolio/
 
 A few of my clients include:
 
-- [1588 Barrington Building Preservation Society](https://1588society.ca) (WordPress theme design and development)
-- [Annex Vintage](https://annexvintage.com) (WordPress theme development)
+- [1588 Barrington Building Preservation Society](https://www.1588society.ca) (WordPress theme design and development)
+- [Annex Vintage](https://www.annexvintage.com) (WordPress theme development)
 - [Beyond Access](http://beyondaccess.net/ 'Beyond Access') (WordPress theme development)
 - [Commons Group](https://commons.ca/ 'Commons') / [Mozilla Foundation](https://mozilla.org) (WordPress theme development)
 - [Computers for Success Canada](https://cfsc-opec.org) (WordPress theme design and development)
