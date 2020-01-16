@@ -22,14 +22,16 @@ body {
 main {
 	flex: 1 0 auto;
 	max-width: 58ch;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 1.5rem;
 }
 
 .site-head,
 .site-foot {
 	max-width: 58ch;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 }
 
