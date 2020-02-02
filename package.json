@@ -25,17 +25,20 @@
 		"rollup-plugin-json": "^4.0.0",
 		"rollup-plugin-node-builtins": "^2.1.2",
 		"rollup-plugin-node-resolve": "^5.2.0",
-		"xo": "^0.25.3"
+		"stylelint": "^13.0.0",
+		"stylelint-config-recommended": "^3.0.0"
 	},
 	"scripts": {
 		"sass": "sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
 		"clean": "rimraf dist",
 		"cms:precompile": "make-dir dist/admin && nunjucks-precompile src/_includes > dist/admin/templates.js -i '\\.(njk|css|svg)$'",
 		"cms:bundle": "rollup --config",
+		"lint:css": "stylelint src/scss/**/*.scss",
+		"lint": "run-s lint:*",
 		"start": "npm run clean && concurrently 'npm run sass -- --watch' 'npm run cms:bundle -- --watch' 'chokidar \"src/_includes/**\" -c \"npm run cms:precompile\"' 'npm run serve'",
 		"serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
 		"production": "run-s clean sass cms:* && npx eleventy",
-		"test": "xo"
+		"test": "npm run lint"
 	},
 	"repository": {
 		"type": "git",
