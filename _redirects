@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://bight.ca/* https://bight.dev/:splat 301!
+https://www.bight.ca/* https://bight.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://bightconsulting.netlify.com/* https://bight.dev/:splat 301!
