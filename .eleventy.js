@@ -29,6 +29,7 @@ module.exports = function(config) {
 	// Passthrough copy
 	config.addPassthroughCopy("src/fonts");
 	config.addPassthroughCopy("src/images");
+	config.addPassthroughCopy("_redirects");
 	config.addPassthroughCopy("src/.well-known/keybase.txt");
 	config.addPassthroughCopy("src/admin/config.yml");
 	config.addPassthroughCopy("src/admin/previews.js");
