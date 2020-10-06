@@ -17,6 +17,7 @@
 		"slugify": "^1.4.5"
 	},
 	"devDependencies": {
+		"bl": "^1.2",
 		"chokidar-cli": "^2.1.0",
 		"cross-env": "^7.0.2",
 		"make-dir-cli": "^2.0.0",
