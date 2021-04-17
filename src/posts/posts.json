@@ -1,4 +1,4 @@
 {
   "layout": "layouts/post.njk",
-  "permalinks": "/entries/{{ title | slug }}/"
+  "permalink": "/entries/{{ title | slug }}/"
 }
