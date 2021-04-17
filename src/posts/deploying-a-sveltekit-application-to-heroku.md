@@ -1,9 +1,9 @@
 ---
-layout: layouts/post.njk
 title: Deploying a SvelteKit application to Heroku
 date: 2021-04-17T17:23:49.588Z
 tags:
-  - meta
+  - Svelte
+  - SvelteKit
 ---
 I've been a fan of [Svelte](https://svelte.dev) for a few years now, so I'm very excited about [SvelteKit](https://kit.svelte.dev/).
 

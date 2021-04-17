@@ -1,6 +1,5 @@
 ---
 title: Portfolio
-permalink: /portfolio/
 ---
 
 A few of my clients include:
