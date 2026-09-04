@@ -27,7 +27,7 @@
 		"rollup-plugin-node-builtins": "^2.1.2",
 		"rollup-plugin-node-resolve": "^5.2.0",
 		"stylelint": "^13.8.0",
-		"stylelint-config-recommended": "^3.0.0"
+		"stylelint-config-recommended": "^18.0.0"
 	},
 	"scripts": {
 		"sass": "sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
